@@ -15,6 +15,7 @@ while True:
 
     # gives an empty black screen to put our image onto
     image = np.zeros(frame.shape, np.uint8)
+    # np.unit8 is necessary because it ranges from 0-255
 
     # resizing the frame to fit in image window
     smaller_frame = cv2.resize(frame, (0, 0), fx=0.5, fy=0.5)
