@@ -2,7 +2,7 @@ import cv2
 
 import random
 
-img = cv2.imread("/Volumes/T5/OpenCV/TWT_openCV_tutorial/Tutorial2/nami.png", 1)
+img = cv2.imread("/Volumes/T5/OpenCV/TWT_openCV_tutorial/Basics2/nami.png", 1)
 
 
 for i in range(900, 1400):
